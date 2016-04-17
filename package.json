@@ -6,6 +6,9 @@
   "scripts": {
     "test": "lab -L -t 90"
   },
+  "engines" : {
+    "node" : ">=4.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dschenkelman/laughter.git"
