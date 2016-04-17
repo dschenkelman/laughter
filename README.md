@@ -1,4 +1,4 @@
-# laughter
+# laughter ![](https://travis-ci.org/dschenkelman/laughter.svg?branch=master)
 Use return and throw when working with Promises in hapi.js route handlers
 
 ## Usage
