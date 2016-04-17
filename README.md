@@ -2,7 +2,7 @@
 Use return and throw when working with Promises in hapi.js route handlers
 
 ## Usage
-```
+```javascript
 const Laughter = require('laughter');
 
 const route = {
@@ -19,7 +19,7 @@ const route = {
 ```
 
 ## Errors
-```
+```javascript
 const Laughter = require('laughter');
 const boom = require('boom');
 
@@ -32,14 +32,14 @@ Laughter(request => {
 ```
 
 ## Status Codes
-```
+```javascript
 const Laughter = require('laughter');
 
 Laughter(request => Promise.resolve({ code: 201, object: { ... }}));
 ```
 
 ## Headers
-```
+```javascript
 const Laughter = require('laughter');
 
 Laughter(request => Promise.resolve({
