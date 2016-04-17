@@ -1,0 +1,37 @@
+{
+  "name": "laughter",
+  "version": "1.0.0",
+  "description": "Use return and throw when working with Promises in hapi.js route handlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -L -t 90"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschenkelman/laughter.git"
+  },
+  "keywords": [
+    "hapi",
+    "promise",
+    "handler"
+  ],
+  "author": "Damian Schenkelman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dschenkelman/laughter/issues"
+  },
+  "homepage": "https://github.com/dschenkelman/laughter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "code": "^2.2.0",
+    "eslint": "^2.8.0",
+    "eslint-config-hapi": "^9.1.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "lab": "^10.3.1",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "boom": "^3.1.2",
+    "xtend": "^4.0.1"
+  }
+}
