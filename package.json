@@ -1,6 +1,6 @@
 {
   "name": "laughter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use return and throw when working with Promises in hapi.js route handlers",
   "main": "index.js",
   "scripts": {
